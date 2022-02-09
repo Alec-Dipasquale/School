@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <style>
+	
+	#loginLabel {
+		font-fmaily: arial;
+	}
+		
+    #loginInformation {
+        max-width:700px;
+        padding-top:40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        margin: auto;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    }
+    
+    #username {
+		font-family: arial;
+    }
+    
+    #username:hover {
+        width: 200px;
+		font-family: arial;
+    }
+	
+	#password {
+		font-family: arial;
+	}
+    
+    #password:hover {
+        width: 200px;
+		font-family: arial;
+    }
+	
+    #loginBtn:hover {
+		font-family: arial;
+    }
+    </style>
+</head>
+
+
+
+<body>
+    
+<div id="loginInformation">
+    <form action="login_verification.php" method="post">
+            <h1>Login</h1>
+            <label style =" padding:5px" id="username">Username: </label><input  type = "text" id = "username" name = "username"/><br/>
+            <label style =" padding:5px" id = "password">Password: </label><input type = "password" id = "password" name = "password"/>
+        
+        <div style = "text-align:center; padding:5px;" id = "loginBtn">
+			<input type = "submit" name = "login" value = "Login">
+		</div>
+    </form>
+    <form action="register.html" method="post">
+    <div style = "text-align:center;" id = "registerBtn">
+			<input type = "submit" name = "register" value = "Register">
+		</div>
+    </form>
+    </div>
+</body>
+</html>

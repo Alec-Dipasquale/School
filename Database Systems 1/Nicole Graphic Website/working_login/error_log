@@ -1,0 +1,107 @@
+[07-Dec-2020 03:55:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/dipasqa1/public_html/project/main_page.php on line 197
+[07-Dec-2020 15:26:34 UTC] PHP Fatal error:  Allowed memory size of 33554432 bytes exhausted (tried to allocate 3975112 bytes) in /home/dipasqa1/public_html/project/main_page.php on line 182
+[07-Dec-2020 15:41:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:120
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 120
+[07-Dec-2020 15:41:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:120
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 120
+[07-Dec-2020 15:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function numRows() on boolean in /home/dipasqa1/public_html/project/product_page.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/product_page.php on line 105
+[07-Dec-2020 15:50:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 15:53:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 15:53:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 15:53:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 15:53:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 16:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 16:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:117
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 117
+[07-Dec-2020 16:04:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 119
+[07-Dec-2020 16:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 119
+[07-Dec-2020 16:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/cart.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/cart.php on line 119
+[07-Dec-2020 16:18:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 16
+[07-Dec-2020 18:41:58 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 13
+[07-Dec-2020 18:42:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 13
+[07-Dec-2020 18:44:14 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 13
+[07-Dec-2020 18:44:47 UTC] PHP Warning:  Illegal string offset 'tmp_name' in /home/dipasqa1/public_html/project/insert_product.php on line 13
+[07-Dec-2020 18:44:47 UTC] PHP Warning:  file_get_contents(N): failed to open stream: No such file or directory in /home/dipasqa1/public_html/project/insert_product.php on line 13
+[07-Dec-2020 18:48:25 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 31
+[07-Dec-2020 18:48:53 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 31
+[07-Dec-2020 18:48:57 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/dipasqa1/public_html/project/insert_product.php on line 31
+[07-Dec-2020 20:24:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/delete_product.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/delete_product.php on line 36
+[07-Dec-2020 20:24:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on boolean in /home/dipasqa1/public_html/project/delete_product.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/delete_product.php on line 36
+[07-Dec-2020 21:21:02 UTC] PHP Parse error:  syntax error, unexpected 'file' (T_STRING), expecting ',' or ';' in /home/dipasqa1/public_html/project/insert_product.php on line 52
+[07-Dec-2020 21:39:52 UTC] PHP Warning:  file_exists() expects parameter 1 to be a valid path, string given in /home/dipasqa1/public_html/project/insert_product.php on line 31
+[08-Dec-2020 01:43:42 UTC] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/dipasqa1/public_html/project/receipt.php on line 44
+[08-Dec-2020 03:15:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/dipasqa1/public_html/project/check_receipts.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/check_receipts.php on line 24
+[08-Dec-2020 03:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/dipasqa1/public_html/project/check_receipts.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/check_receipts.php on line 24
+[08-Dec-2020 03:51:27 UTC] PHP Warning:  mysqli::query(): Empty query in /home/dipasqa1/public_html/project/receipt.php on line 53
+[08-Dec-2020 03:51:27 UTC] PHP Warning:  mysqli::query(): Empty query in /home/dipasqa1/public_html/project/receipt.php on line 53
+[08-Dec-2020 03:52:00 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/dipasqa1/public_html/project/receipt.php on line 53
+[09-Dec-2020 19:56:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/dipasqa1/public_html/project/insert_product.php:1) in /home/dipasqa1/public_html/project/insert_product.php on line 8
+[09-Dec-2020 19:56:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/insert_product.php:1) in /home/dipasqa1/public_html/project/insert_product.php on line 11
+[09-Dec-2020 19:56:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/insert_product.php:1) in /home/dipasqa1/public_html/project/insert_product.php on line 14
+[09-Dec-2020 19:58:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/dipasqa1/public_html/project/delete_product.php:1) in /home/dipasqa1/public_html/project/delete_product.php on line 8
+[09-Dec-2020 19:58:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/delete_product.php:1) in /home/dipasqa1/public_html/project/delete_product.php on line 10
+[09-Dec-2020 19:58:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/delete_product.php:1) in /home/dipasqa1/public_html/project/delete_product.php on line 13
+[09-Dec-2020 19:59:26 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 9
+[09-Dec-2020 19:59:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 11
+[09-Dec-2020 20:00:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 3
+[09-Dec-2020 20:00:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 5
+[09-Dec-2020 20:01:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 3
+[09-Dec-2020 20:01:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dipasqa1/public_html/project/cart.php:1) in /home/dipasqa1/public_html/project/cart.php on line 5
+[09-Dec-2020 20:09:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function free() on null in /home/dipasqa1/public_html/project/login_verification.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/dipasqa1/public_html/project/login_verification.php on line 46
+[09-Dec-2020 20:11:51 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/dipasqa1/public_html/project/main_page.php on line 171
+[09-Dec-2020 20:15:40 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/dipasqa1/public_html/project/main_page.php on line 171
+[09-Dec-2020 20:15:43 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/dipasqa1/public_html/project/main_page.php on line 171
+[09-Dec-2020 20:15:46 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/dipasqa1/public_html/project/main_page.php on line 171
+[09-Dec-2020 20:17:19 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/dipasqa1/public_html/project/main_page.php on line 171
+[09-Dec-2020 20:36:03 UTC] PHP Parse error:  syntax error, unexpected '"'"' (T_CONSTANT_ENCAPSED_STRING) in /home/dipasqa1/public_html/project/cart.php on line 29

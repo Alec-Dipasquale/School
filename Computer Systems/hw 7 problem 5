@@ -1,0 +1,26 @@
+#HW 7 Problem 5
+
+	.data 
+	arrayA: 
+		row1: .word 11 22 0 
+		row2: .word 0 33 44 
+		row3: .word 0 0 55
+	.text 
+	.globl main 
+	
+main: 
+	#computation of det by product of diagonal elements 
+	li 	$t4,0 
+	li 	$t5,4 
+	li 	$t6,8 
+	lw 	$t1,arrayA_0($t4) 
+	lw 	$t2,arrayA_1($t5) 
+	lw 	$t3,arrayA_2($t6) 
+	mul 	$t1,$t1,$t2 
+	mul 	$t1,$t1,$t3 
+	move 	$t0,$t1 
+	li	$v0,1 
+	move 	$a0,$t0 
+	syscall 
+	li	$v0,10 
+	syscall 

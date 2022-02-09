@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<style>
+	
+	#loginLabel {
+		margin-left: 140px;
+		font-fmaily: arial;
+	}
+		
+    #loginInformation {
+        margin-left: 512px;
+		margin-top: 260px;
+    }
+    
+    #username {
+        margin-left: 30px;
+		font-family: arial;
+    }
+    
+    #username:hover {
+        width: 200px;
+		font-family: arial;
+    }
+	
+	#password {
+		font-family: arial;
+	}
+    
+    #password:hover {
+        width: 200px;
+		font-family: arial;
+    }
+	
+    #loginBtn:hover {
+		font-family: arial;
+    }
+</style>
+
+<body>
+    <form action="login_verification.php" method="post">
+        <div id="loginInformation">
+			<p style = "font-family:arial;" id = "loginLabel">Login</p>
+            <p><label id="username">Username: </label><input type = "text" id = "username" name = "username"/></p>
+            <p><label id = "password">Password: </label><input type = "password" id = "password" name = "password"/></p>
+        </div>
+        <div style = "text-align:center;" id = "loginBtn">
+			<input type = "submit" name = "login" value = "Login">
+		</div>
+    </form>
+</body>
+</html>
